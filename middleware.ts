@@ -5,8 +5,8 @@ import { authMiddleware } from "@clerk/nextjs";
  
 export default authMiddleware({
 
-  // publicRoutes: ["/api/webhooks/clerk"],
-  publicRoutes: ["/api/webhooks(.*)"],
+  publicRoutes: ["/api/webhooks/clerk"]
+  
   // Allow signed out users to access the specified routes:
   // publicRoutes: ['/anyone-can-visit-this-route'],
   // Prevent the specified routes from accessing
