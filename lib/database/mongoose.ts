@@ -1,6 +1,7 @@
 import mongoose, {Mongoose} from "mongoose";
 
 const MONGODB_URL=process.env.MONGODB_URL;
+// const MONGODB_URL= "mongodb+srv://aashishsarva:asd123123@cluster0.ae52tv0.mongodb.net/?retryWrites=true&w=majority";
 
 
 interface MongooseConnection{
