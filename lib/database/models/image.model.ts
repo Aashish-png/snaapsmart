@@ -2,7 +2,7 @@ import { Document, Schema, model, models } from "mongoose";
 
 
 
-export interface Image extends Document {
+export interface IImage extends Document {
     title: string;
     transformationType: string;
     publicId: string;
@@ -14,7 +14,7 @@ export interface Image extends Document {
     aspectRatio?: string;
     color?: string;
     prompt?: string;
-    author?:    {_id:string, firstName:string; lastName:string;}                         // Schema.Types.ObjectId; // Assuming Schema.Types.ObjectId is imported from mongoose
+    author?:    {_id:string, firstName:string; lastName:string;}                    
     createdAt?: Date;
     updatedAt?: Date;
 }
