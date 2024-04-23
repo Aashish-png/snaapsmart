@@ -191,3 +191,4 @@ export const navLinks = [
   };
   
   export const creditFee = -1;
+  export const LOGOURL='https://firebasestorage.googleapis.com/v0/b/food-app-fbd77.appspot.com/o/snapSmarrtLogo.jpg?alt=media&token=1dfdd084-5f51-486b-a835-59153d17ec38'

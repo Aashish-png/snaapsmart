@@ -6,11 +6,9 @@ const nextConfig = {
                 protocol:'https',
                 hostname:'res.cloudinary.com',
                 port:''
-            }
-
-
-        ]
-
+            },  
+        ],
+        domains :['firebasestorage.googleapis.com'],
 
     }
 
